@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'https://fsa-puppy-bowl.herokuapp.com/api'
+const API_URL = 'https://fsa-puppy-bowl.herokuapp.com/api/2401-FTB-ET-WEB-AM/players'
 
 export const getAllPlayers = async()=>{
 const {data} = await axios.get(API_URL)
