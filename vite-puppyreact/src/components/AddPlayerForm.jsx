@@ -25,7 +25,7 @@ function AddPlayerForm() {
 
     try {
       const { data } = await axios.post(
-        'https://fsa-puppy-bowl.herokuapp.com/api/JMace88/players',
+        'https://fsa-puppy-bowl.herokuapp.com/api/2401-FTB-ET-WEB-AM/players',
         payload
       );
       clearForm();
@@ -43,7 +43,7 @@ function AddPlayerForm() {
           <input
             value={name}
             onChange={(event) => setName(event.target.value)}
-            placeholder="enter they puppy player's name"
+            placeholder="enter the puppy player's name"
           />
         </label>
         <label>
@@ -55,7 +55,7 @@ function AddPlayerForm() {
           />
         </label>
         <label>
-          Puppy's Selfie:
+          Puppy's Picture:
           <input
             value={imageUrl}
             onChange={(event) => setImageUrl(event.target.value)}

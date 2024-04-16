@@ -46,7 +46,7 @@ function SinglePlayer() {
         <button onClick={backHome}>Return to Roster</button>
         <button
           onClick={() => {
-            if (confirm('Do you want to remove this player?')) {
+            if (confirm('Confirm to remove this player?')) {
               deleteHandler(player.id);
             } else {
               return false;
