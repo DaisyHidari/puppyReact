@@ -39,7 +39,7 @@ function AddPlayerForm() {
     <div className='formBox'>
       <form onSubmit={handleSubmit}>
         <label>
-          Puppy's Name:
+          Name:
           <input
             value={name}
             onChange={(event) => setName(event.target.value)}
@@ -47,7 +47,7 @@ function AddPlayerForm() {
           />
         </label>
         <label>
-          Puppy's Breed:
+          Breed:
           <input
             value={breed}
             onChange={(event) => setBreed(event.target.value)}
@@ -55,7 +55,7 @@ function AddPlayerForm() {
           />
         </label>
         <label>
-          Puppy's Picture:
+          Picture:
           <input
             value={imageUrl}
             onChange={(event) => setImageUrl(event.target.value)}
